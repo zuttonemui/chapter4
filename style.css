@@ -17,9 +17,7 @@
 }
 
 .main{
-    width: 960px;
-    height: 1400px;
-    background-color: green;
+    width: 960px;;
     display: flex;
     justify-content: center;
     margin: 0 auto;
