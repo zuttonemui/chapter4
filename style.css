@@ -19,15 +19,28 @@
 .main{
     width: 960px;
     height: 1400px;
-    background-color: limegreen;
+    background-color: green;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
 }
 
-.main-center {
+.sidebar-left {
+    width: 230px;
+    height: 1400px;
+    background-color: palegreen;
+}
+
+.blog {
     width: 500px;
     height: 1400px;
-    background-color: green;
-    margin:0px 230px;
+    background-color: limegreen;
+}
+
+.sidebar-right {
+    width: 230px;
+    height: 1400px;
+    background-color: palegreen;
 }
 
 .footer {
